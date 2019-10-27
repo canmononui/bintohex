@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bin2Hex</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Kanit:400,300&subset=thai,latin' rel='stylesheet' type='text/css'>
+
+    <!-- <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="buttonIOS.css"> -->
+    <style>
+    body,html {
+      height: 100%;
+    }
+
+    </style>
+</head>
+
+<body>
+  <!-- <button onclick="curtainAutoFunction()" type="button" class="btn btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
+    <button onclick="JsOnFunction()" type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-block text-white" style="background-color: #75D09B; border-radius: 20px;">บวกเลข</button> -->
+
+    <div class="container-fluid h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <form action="">
+            <div class="form-group">
+              <h1 class="text-center font-weight-bold mb-0" id="textHex">00</h1>
+              <div class="text-center" id="divBin">
+                <a class="font-weight-bold" id="textBinary41">0000</a>
+                <a class="font-weight-bold" id="textBinary42">0000</a>
+              </div>
+              
+            </div>
+            <div class="form-group">
+              <input class="form-control" style="border-radius: 20px;" maxlength="8" type="text" id="inputA">
+            </div>
+            <div class="form-group">
+              <input class="form-control" style="border-radius: 20px;" maxlength="8" type="text" id="inputB">
+            </div>
+            <div class="form-group">
+              <button onclick="JsOnFunction()" type="button" class="btn btn-block text-white font-weight-bold" style="background-color: #75D09B; border-radius: 20px;">Add Binary</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MODAL -->
+    <script type="text/javascript" src="js.js"></script>
+    <!-- ICON -->
+    <script src="https://kit.fontawesome.com/dc7facb047.js"></script>
+    <!-- CHART -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
